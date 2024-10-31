@@ -48,7 +48,6 @@ body{
     width: 10px;
     margin-left: 10px;
 }
-
 .header-content{
     position: absolute;
     top: 50%;
@@ -56,5 +55,42 @@ body{
     transform: translate(-50%,-50%);
     text-align: center;
     margin-top: 100px;
+}
 
+.header-content>h1{
+    font-size: 2.8rem;
+    line-height: 60px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.header-content>h3{
+    font-weight: 400;
+    margin-bottom: 20px;    
+}
+
+.header-content>.email-signup{
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.header-content>.email-signup>input{
+    flex: 1;
+    border: 0;
+    outline: none;
+    margin-left: 20px;
+}
+
+.header-content>.email-signup>button{
+    background: #db0001;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
 }
