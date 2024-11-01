@@ -94,3 +94,43 @@ body{
     cursor: pointer;
     padding: 15px 30px;
 }
+
+/* features sections */
+
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+
+.flexo{
+    display: flex;
+    align-items: center;
+}
+
+.features>.row{
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.features>.row>.text-area{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.features>.row>.img{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.features>.row>.img>img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.features>.row>.text-area>h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
