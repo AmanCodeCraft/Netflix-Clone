@@ -54,7 +54,7 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .header-content>h1{
@@ -69,7 +69,7 @@ body{
     margin-bottom: 20px;    
 }
 
-.header-content>.email-signup{
+.header-content>.email-signup,.bottom{
     background-color: #fff;
     border-radius: 4px;
     display: flex;
@@ -78,14 +78,14 @@ body{
     overflow: hidden;
 }
 
-.header-content>.email-signup>input{
+.header-content>.email-signup>input,.bottom>input{
     flex: 1;
     border: 0;
     outline: none;
     margin-left: 20px;
 }
 
-.header-content>.email-signup>button{
+.header-content>.email-signup>button,.bottom>button{
     background: #db0001;
     border: none;
     outline: none;
@@ -130,7 +130,66 @@ body{
 }
 
 .features>.row>.text-area>h2{
-    font-size: 50px;
+    font-size: 2.8rem;
     font-weight: 600;
     margin-bottom: 20px;
+}
+
+.features>.row>.text-area>p{
+    font-size: 1.2rem;
+}
+
+/* questions section */
+
+.question-area{
+    padding: 50px 12%;
+}
+
+.box{
+    border: none;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #303030;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.question-area>h2{
+    margin-bottom: 20px;
+}
+
+.bottom{
+    max-width: 550px;
+}
+
+/* footer links area */
+
+footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+
+footer>h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+footer>.links>.col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+footer>.links>.col>a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: .9rem;
+    margin-bottom: 10px;
+}
+
+footer>.links>.col>a:hover{
+    text-decoration: underline;
 }
