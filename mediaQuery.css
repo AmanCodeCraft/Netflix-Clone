@@ -50,7 +50,7 @@
     }
 
     .features>.row>.img>img{
-        width: 80%;
+        width: 85%;
     }
 
     .features>.row>.text-area>h2{
@@ -72,7 +72,7 @@
 
     .question-area>.box{
         align-items: start;
-        padding: .7rem;
+        padding: .8rem;
         margin-bottom: 10px;
     }
 
@@ -100,7 +100,7 @@
 
     footer{
         margin-top: 20px;
-        padding: 15px 10% 5px;
+        padding: 15px 12% 5px;
         border-top: 2px solid #333;
         color: #777;
     }
